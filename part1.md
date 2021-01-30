@@ -51,3 +51,10 @@ the any code blocks/for loops.
   it is checking whether or not it is true and because 2 is a non-zero value it returns true and goes into the statement to print out How are you?. And it doesn't enter the last else
   statement because it has already entered the else if statement.
   
+18) See **part1-question18.js** file
+
+19)The output was **[6,8,10]** because when the function modifyArray([1,2,3],doSomething is called, it will first create a newArr that is empty to return. Then for each element in the array it will call callback(array[i]) which will take that value and add 2 to it and return it. Then that returned value will go into function x which will multiply it by 2. Once muliplied by 2, it will then be pushed in the newArr and then continue the loop for the next element in the array. So, the initial 1 will be sent to callback and be added with 2 to get 3 and that 3 will be sent to function(3) to get 6 and that 6 will be pushed into the newArr to get [6]. Then it goes on for the next element until we reach the last element in the array.
+
+20) See **part1-question20.js**
+
+21)
