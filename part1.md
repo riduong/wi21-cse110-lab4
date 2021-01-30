@@ -57,4 +57,7 @@ the any code blocks/for loops.
 
 20) See **part1-question20.js**
 
-21)
+21)1
+   4
+   3
+   2
